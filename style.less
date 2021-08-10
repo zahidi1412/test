@@ -24,6 +24,7 @@ body{
         bottom: 20px;
         display: grid;
         grid-template-columns: 50% 50%;
+        position: relative;
        padding: auto;
         .grid-item{
             
@@ -51,14 +52,26 @@ body{
                }
             }
             .right{
+                background-image: url("images/image-header-desktop.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
                 background-color: @SoftViolet;
               }
             }
             
+         
+            .right{
+                background-image: url("images/image-header-desktop.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                background-color: @SoftViolet;
+            }
         }
-        img{
-            max-width: 100%;
-            max-height: 100%;
         
     }
+
 }
